@@ -1,9 +1,42 @@
 li {
     padding-right: 40px;
+    font-family: optima, sans-serif;
+}
+
+p {
+    font-family: optima, sans-serif;
+}
+
+h1 {
+    font-family: optima, sans-serif;
+}
+
+h2 {
+    font-family: optima, sans-serif;
+    color: black;
+}
+
+h3 {
+    font-family: optima, sans-serif;
+    color: black;
+}
+
+.liCV {
+    color: antiquewhite;
+    margin-left: 5%;
 }
 
 a {
     color: black !important;
+}
+
+.navbarItem:hover {
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+.navbarItem:visited {
+    background-color: antiquewhite;
 }
 
 header {
@@ -30,7 +63,7 @@ footer {
     margin-top: 250px;
 }
 
-.bColorIndex {
+.bColor {
     background-color: #3a3737;
 }
 
@@ -39,12 +72,54 @@ footer {
     margin-bottom: 50px;
 }
 
+.dv20 {
+    width: 35%;
+    margin: auto;
+}
+
+#imgGithub {
+    width: 50%;
+}
+
+.textcenter {
+    text-align: center;
+}
+
 .footerMargin {
     padding-top: 20px;
+}
+
+.hIcon {
+    height: 30px;
+}
+
+#dvcontainerStretch {
+    padding-bottom: 65px;
+}
+
+input[type=text] {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100px;
+    margin-left: 21%;
+}
+
+label {
+    width: 20%;
+    color: antiquewhite;
 }
 
 @media only screen and (max-width: 768px) {
     #pIndex {
         margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .dv20 {
+        width: 100%;
     }
 }

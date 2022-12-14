@@ -17,80 +17,76 @@
 
 <body>
     <style>
-        input[type=text] {
-            display: inline-block;
-            box-sizing: border-box;
-        }
-        
-        input[type=submit] {
-            width: 10%;
-            margin-left: 10%;
-        }
-        
-        .center {
-            margin: auto;
-            width: 40%;
-            padding: 10px;
-        }
+
     </style>
-    <header>
+    <header class="container-fluid">
         <a href="index.html"><img src="img/LogoMakr-3iHfGh.png" alt="Logo"></a>
 
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="hobby.html">Hobby</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="experience.html">Experience</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cv.html">CV</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navbarItem" href="hobby.html"><strong>Hobby</strong></a></li>
+                    <li class="nav-item">
+                        <a class="nav-link navbarItem" href="experience.html"><strong>Experience</strong></a></li>
+                    <li class="nav-item">
+                        <a class="nav-link navbarItem" href="cv.html"><strong>CV</strong></a></li>
+                    <li class="nav-item">
+                        <a class="nav-link navbarItem" href="contact.html"><strong>Contact</strong></a></li>
+                </ul>
+
             </div>
         </nav>
     </header>
-    <div>
-        <h1 style="text-align: center;">Contact</h1>
-        <p style="text-align: center;">Please contact me through the form below. Otherwise you can find me on Facebook or Instagram.</p>
+    <div class="container-fluid bColor">
+        <div class="row">
+            <div>
+                <h1 class="textcenter">Contact</h1>
+                <p class="textcenter">Please contact me through the form below. Otherwise you can find me on Facebook or Instagram.</p>
+            </div>
+        </div>
+        <div class="row">
+            <form method="post" action="" class="dv20">
+                <div>
+                    <label for="txtName">Name</label>
+                    <input type="text" name="txtName" id="txtName" placeholder="Name">
+                </div>
+                <div>
+                    <label for="txtMail">Mail address</label>
+                    <input type="text" name="txtMail" id="txtMail" placeholder="Mail">
+                </div>
+                <div>
+                    <label for="txtSubject">Subject</label>
+                    <input type="text" name="txtSubject" id="txtSubject" placeholder="Subject">
+                </div>
+                <div>
+                    <label for="taQuestion">Question</label>
+                    <textarea name="taQuestion" id="taQuestion" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="submit"></input>
+                </div>
+            </form>
+        </div>
     </div>
-    <form method="post" action="*">
-        <div class="center">
-            <label for="txtName">Name</label>
-            <input type="text" name="txtName" id="txtName" placeholder="Name">
-        </div>
-        <div class="center">
-            <label for="txtMail">Mail address</label>
-            <input type="text" name="txtMail" id="txtMail" placeholder="Mail">
-        </div>
-        <div class="center">
-            <label for="txtSubject">Subject</label>
-            <input type="text" name="txtSubject" id="txtSubject" placeholder="Subject">
-        </div>
-        <div class="center">
-            <label for="taQuestion">Question</label>
-            <textarea name="taQuestion" id="taQuestion" cols="30" rows="10"></textarea>
-        </div>
-        <div class="center">
-            <input type="submit" value="submit"></input>
-        </div>
-    </form>
-
     <footer>
-        <div style="width: 50%; float: left;">
-            <a href="https://www.facebook.com/lender.boeckx/"><img src="img/facebook.png" alt="Link naar Facebook" style="height: 30px;"></a>
-            <a href="https://www.instagram.com/lender_boeckx/"><img src="img/instagram.png" alt="Link naar Instagram" style="height: 30px;"></a>
-        </div>
-        <div style="width: 50%; float: left;">
-            <p style="text-align: right; margin-right:40px">
-                copyright © 2022 - Lender Boeckx
-            </p>
+        <div class="container-fluid">
+            <div class="row footerMargin">
+                <div class="col-4">
+                    <a href="https://www.facebook.com/lender.boeckx/ "><img src="img/facebook.png " alt="Link naar Facebook " class="hIcon"></a>
+                    <a href="https://www.instagram.com/lender_boeckx/ "><img src="img/instagram.png " alt="Link naar Instagram " class="hIcon"></a>
+                </div>
+                <div class="col-8">
+                    <div class="d-flex justify-content-end">
+                        <p class="pFooter">
+                            copyright © 2022 - Lender Boeckx
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

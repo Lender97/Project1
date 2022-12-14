@@ -16,48 +16,60 @@
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid">
         <a href="index.html"><img src="img/LogoMakr-3iHfGh.png" alt="Logo"></a>
 
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="hobby.html">Hobby</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="experience.html">Experience</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cv.html">CV</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navbarItem" href="hobby.html"><strong>Hobby</strong></a></li>
+                    <li class="nav-item">
+                        <a class="nav-link navbarItem" href="experience.html"><strong>Experience</strong></a></li>
+                    <li class="nav-item">
+                        <a class="nav-link navbarItem" href="cv.html"><strong>CV</strong></a></li>
+                    <li class="nav-item">
+                        <a class="nav-link navbarItem" href="contact.html"><strong>Contact</strong></a></li>
+                </ul>
+
             </div>
         </nav>
     </header>
-
-    <div style="width: 20%; margin:auto;">
-        <h1>Experience</h1>
-        <p>My latest realized projects can be found on Github through te following link.</p>
-        <p>Don't doubt to take a look!</p>
-        <p>
-            <a href="https://github.com/Lender97?tab=repositories"><img src="img/github.png" alt="Icon Github" style="height: 100px;"></a>
-        </p>
+    <div class="container-fluid bColor" id="dvcontainerStretch">
+        <div class="dv20">
+            <div class="row">
+                <h1>Experience</h1>
+            </div>
+            <div class="row">
+                <p>My latest realized projects can be found on Github through te following link on the icon.</p>
+                <p>Don't doubt to take a look!</p>
+            </div>
+            <div class="row">
+                <p class="textcenter">
+                    <a href="https://github.com/Lender97?tab=repositories"><img src="img/github.png" alt="Icon Github" id="imgGithub"></a>
+                </p>
+            </div>
+        </div>
     </div>
 
     <footer>
-        <div style="width: 50%; float: left;">
-            <a href="https://www.facebook.com/lender.boeckx/"><img src="img/facebook.png" alt="Link naar Facebook" style="height: 30px;"></a>
-            <a href="https://www.instagram.com/lender_boeckx/"><img src="img/instagram.png" alt="Link naar Instagram" style="height: 30px;"></a>
-        </div>
-        <div style="width: 50%; float: left;">
-            <p style="text-align: right; margin-right:40px">
-                copyright © 2022 - Lender Boeckx
-            </p>
+        <div class="container-fluid" id="footerExperience">
+            <div class="row footerMargin">
+                <div class="col-4">
+                    <a href="https://www.facebook.com/lender.boeckx/ "><img src="img/facebook.png " alt="Link naar Facebook " class="hIcon"></a>
+                    <a href="https://www.instagram.com/lender_boeckx/ "><img src="img/instagram.png " alt="Link naar Instagram " class="hIcon"></a>
+                </div>
+                <div class="col-8">
+                    <div class="d-flex justify-content-end">
+                        <p class="pFooter">
+                            copyright © 2022 - Lender Boeckx
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
