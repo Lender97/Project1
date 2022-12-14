@@ -1,0 +1,50 @@
+li {
+    padding-right: 40px;
+}
+
+a {
+    color: black !important;
+}
+
+header {
+    background-color: #808080;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+p {
+    color: antiquewhite;
+}
+
+.pFooter {
+    color: black;
+}
+
+footer {
+    background-color: #808080;
+}
+
+#pIndex {
+    margin-top: 250px;
+}
+
+.bColorIndex {
+    background-color: #3a3737;
+}
+
+.image {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.footerMargin {
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    #pIndex {
+        margin-top: 20px;
+    }
+}
