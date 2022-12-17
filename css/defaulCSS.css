@@ -51,6 +51,11 @@ p {
     color: antiquewhite;
 }
 
+#btnIndexContact {
+    background-color: #359AC0;
+    border: none;
+}
+
 .pFooter {
     color: black;
 }
@@ -59,7 +64,7 @@ footer {
     background-color: #808080;
 }
 
-#pIndex {
+#HIndex {
     margin-top: 250px;
 }
 
@@ -112,15 +117,13 @@ label {
     color: antiquewhite;
 }
 
+#carouselHobbyWork {
+    height: 32rem;
+}
+
 @media only screen and (max-width: 768px) {
     #pIndex {
         margin-top: 20px;
-    }
-    .carousel-inner .carousel-item>div {
-        display: none;
-    }
-    .carousel-inner .carousel-item>div:first-child {
-        display: block;
     }
 }
 
@@ -128,32 +131,4 @@ label {
     .dv20 {
         width: 100%;
     }
-}
-
-
-/*carousel*/
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-    display: flex;
-}
-
-
-/* medium and up screens */
-
-@media (min-width: 768px) {
-    .carousel-inner .carousel-item-end.active,
-    .carousel-inner .carousel-item-next {
-        transform: translateX(25%);
-    }
-    .carousel-inner .carousel-item-start.active,
-    .carousel-inner .carousel-item-prev {
-        transform: translateX(-25%);
-    }
-}
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start {
-    transform: translateX(0);
 }
